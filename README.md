@@ -14,23 +14,23 @@ The code is inspired from the Kaggle notebook available [here](https://www.kaggl
 **Note**: The dataset is large and is not included in this repository. Please download it via the link provided above.
 
 ## Model Variations
-The performance of multiple model variations is compared against a base model (`my_model_v3`). Each model explores a different architecture or hyperparameter configuration:
+The performance of multiple model variations is compared against a base model (`model_v3`). Each model explores a different architecture or hyperparameter configuration:
 
-- **`my_model_v3`**: Baseline model.
-- **`my_model_v4`**: Final dense layer of 128 units.
-- **`my_model_v5`**: Final dense layer of 64 units.
-- **`my_model_v6`**: Final dense layer of 512 units.
-- **`my_model_v7`**: Conv2D with 256 filters + Final dense layer of 512 units.
-- **`my_model_v8`**: Conv2D with 256 filters + Final dense layer of 1024 units.
-- **`my_model_v9`**: Without dropout.
-- **`my_model_v10`**: Without L2 regularization.
-- **`my_model_v11`**: Without both dropout and L2 regularization.
-- **`my_model_v12`**: Learning rate = 0.001.
-- **`my_model_v13`**: Learning rate = 0.01.
-- **`my_model_v14`**: Learning rate = 0.0001.
-- **`my_model_v15`**: Zero weight initialization.
-- **`my_model_v16`**: Architecture changed from CNN to MLP.
-- **`my_model_v18`**: Without batch normalization.
+- **`model_v3`**: Baseline model.
+- **`model_v4`**: Final dense layer of 128 units.
+- **`model_v5`**: Final dense layer of 64 units.
+- **`model_v6`**: Final dense layer of 512 units.
+- **`model_v7`**: Conv2D with 256 filters + Final dense layer of 512 units.
+- **`model_v8`**: Conv2D with 256 filters + Final dense layer of 1024 units.
+- **`model_v9`**: Without dropout.
+- **`model_v10`**: Without L2 regularization.
+- **`model_v11`**: Without both dropout and L2 regularization.
+- **`model_v12`**: Learning rate = 0.001.
+- **`model_v13`**: Learning rate = 0.01.
+- **`model_v14`**: Learning rate = 0.0001.
+- **`model_v15`**: Zero weight initialization.
+- **`model_v16`**: Architecture changed from CNN to MLP.
+- **`model_v18`**: Without batch normalization.
 
 ## Validation Accuracy
 Validation accuracy during training for all the model architectures is provided below.
