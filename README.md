@@ -36,21 +36,31 @@ The performance of multiple model variations is compared against a base model (`
 Validation accuracy during training for all the model architectures is provided below.
 
 ### Baseline Model
-<img src="graphs/baseline.png" width="300" height="300">
+<div style="text-align: left;">
+    <img src="graphs/baseline.png" width="300" height="300">
+</div>
 
 ### Final Embedding Layer
 Comparison of models with fewer and more features:
-<img src="graphs/less-features.png" width="300" height="300">
-<img src="graphs/more-features.png" width="300" height="300">
+<div style="text-align: left;">
+    <img src="graphs/less-features.png" width="300" height="300">
+    <img src="graphs/more-features.png" width="300" height="300">
+</div>
 
 ### Regularization
 Effect of regularization techniques on validation accuracy:
-<img src="graphs/regularization.png" width="300" height="300">
+<div style="text-align: left;">
+    <img src="graphs/regularization.png" width="300" height="300">
+</div>
 
 ### Batch Normalization
 Impact of batch normalization:
-<img src="graphs/batch-norm.png" width="300" height="300">
+<div style="text-align: left;">
+    <img src="graphs/batch-norm.png" width="300" height="300">
+</div>
 
 ### Weight Initialization
 Effect of different weight initialization strategies:
-<img src="graphs/weight-initialization.png" width="300" height="300">
+<div style="text-align: left;">
+    <img src="graphs/weight-initialization.png" width="300" height="300">
+</div>
