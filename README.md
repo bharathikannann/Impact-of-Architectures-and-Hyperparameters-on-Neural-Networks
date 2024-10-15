@@ -5,13 +5,13 @@ This repository contains research on various architectures and hyperparameters f
 
 The code is structured to train models using different configurations and to visualize their performance metrics. The dataset used is the **Omniglot dataset**, which can be downloaded [here](https://github.com/brendenlake/omniglot).
 
-The code takes inspiration from a Kaggle notebook available [here](https://www.kaggle.com/code/kartik2112/omniglot-dataset-siamese-networks).
+The code is inspired from the Kaggle notebook available [here](https://www.kaggle.com/code/kartik2112/omniglot-dataset-siamese-networks).
 
 ## Files in this Repository
 - **`omniglot-dataset-siamese-networks.ipynb`**: Contains the code for training the model.
 - **`plotting.ipynb`**: Contains the code for visualizing the metrics (training accuracy, validation accuracy, and training loss).
 
-**Note**: The dataset is large and not included in this repository. Please download it via the link provided above.
+**Note**: The dataset is large and is not included in this repository. Please download it via the link provided above.
 
 ## Model Variations
 The performance of multiple model variations is compared against a base model (`my_model_v3`). Each model explores a different architecture or hyperparameter configuration:
