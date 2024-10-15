@@ -1,7 +1,7 @@
-# Siamese Neural Networks: Exploring Architectures and Hyperparameters
+# Impact of Architectures and Hyperparameters on Neural Networks
 
 ## Abstract
-This repository contains research on various architectures and hyperparameters for Siamese Neural Networks, focusing on their impact on model performance. The work was conducted as part of the **Recent Advances in Machine Learning** course at the **University of Siegen, SoSe 2022**.
+This repository contains research on various architectures and hyperparameters for Neural Networks, focusing on their impact on model performance. The siamese neural network is used as an example. The work was conducted as part of the **Recent Advances in Machine Learning** course at the **University of Siegen, SoSe 2022**.
 
 The code is structured to train models using different configurations and to visualize their performance metrics. The dataset used is the **Omniglot dataset**, which can be downloaded [here](https://github.com/brendenlake/omniglot).
 
