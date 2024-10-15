@@ -1,4 +1,3 @@
-Here’s an improved version of your README file, making it more readable and structured while maintaining the key details:
 # Siamese Neural Networks: Exploring Architectures and Hyperparameters
 
 ## Abstract
