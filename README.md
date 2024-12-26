@@ -3,6 +3,28 @@
 ## Abstract
 This repository contains research on various architectures and hyperparameters for Neural Networks, focusing on their impact on model performance. The siamese neural network is used as an example. The work was conducted as part of the **Recent Advances in Machine Learning** course at the **University of Siegen, SoSe 2022**.
 
+## Results
+
+Table 1 presents the training and validation accuracy for various model architectures and hyperparameter configurations. The accuracy is measured for a 1-shot 20-way classification task on both the training and validation sets.
+
+| Category             | Model Configuration                  | Train Accuracy (%) | Val Accuracy (%) |
+|----------------------|--------------------------------------|--------------------|-------------------|
+| **Baseline Model**   |                                      | 81.3               | 73.2              |
+| **Final Embedding layer** | Dense - 128                          | 81.6               | 64                |
+|                       | Dense - 64                           | 56                 | 52.4              |
+|                       | Dense - 512                          | 80                 | 75.6              |
+|                       | Conv2D (256) + Dense - 512           | 73.6               | 74                |
+|                       | Conv2D (256) + Dense - 1024          | 73.2               | 65.6              |
+| **Regularization**   | without Dropout                      | 74                 | 66                |
+|                       | without L2 Regularization            | 8.4                | 8.4               |
+|                       | without both methods                 | 26                 | 30                |
+| **Learning rate**    | 0.0001                               | 92.4               | 76.8              |
+|                       | 0.001                                | 59.6               | 47.2              |
+|                       | 0.01                                 | 22.8               | 20.4              |
+| **Weight Initialization** | Zero Initialization                  | 60                 | 50                |
+| **Batch Normalization** | without Batch Normalization          | 40                 | 31.2              |
+| **MLP**              | Dense (2048, 1024 and 512)           | 42                 | 34.4              |
+
 The code is structured to train models using different configurations and to visualize their performance metrics. The dataset used is the **Omniglot dataset**, which can be downloaded [here](https://github.com/brendenlake/omniglot).
 
 The code is inspired from the Kaggle notebook available [here](https://www.kaggle.com/code/kartik2112/omniglot-dataset-siamese-networks).
